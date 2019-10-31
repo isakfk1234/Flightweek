@@ -1,11 +1,12 @@
 body {
-    background-color: #DDDDDD;
+    background-color: hsl(0,0%,96%);
 }
 
 header {
     background: aqua;
-    border-bottom: 0.1rem solid;
+    /* border-bottom: 0.1rem solid; */
     text-align: center;
+    border-style: groove;
 }
 
 nav {
