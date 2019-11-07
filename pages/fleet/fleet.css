@@ -38,3 +38,19 @@ nav a {
     padding: 0.2rem;
     display: inline-block;
 }
+
+
+
+.fleet-box {
+    border: 3px solid ;
+}
+
+.table,tr,th {
+    border-collapse: collapse;
+    border: 0.3rem solid;
+
+}
+
+th, td {
+    padding: 15px;
+}
