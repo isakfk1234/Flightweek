@@ -47,10 +47,9 @@ nav a {
 
 .table,tr,th {
     border-collapse: collapse;
-    border: 0.3rem solid;
 
 }
 
-th, td {
+.th, td {
     padding: 15px;
 }
