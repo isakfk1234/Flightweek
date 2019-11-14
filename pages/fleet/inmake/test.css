@@ -18,7 +18,7 @@ body {
   
   /* Modal Content/Box */
   .modal-content {
-    background-color: #fefefe;
+    background-color: hsl(0,0%,96%);
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
@@ -75,7 +75,18 @@ button.modal-button {
     border: 0.3rem solid;
 }
 
+.lastflight {
+    margin: -1rem 0rem 2rem 43rem;
+    border: 0.1rem solid;
+    box-shadow: 1px 5px 0px 3px lightgrey;
+}
+.lastflight > p{
+    text-align: center;
+}
 
+.pic {
+    width: 22%;
+}
 
 /* nav  */
 
@@ -98,3 +109,4 @@ nav a {
     padding: 0.2rem;
     display: inline-block;
 }
+
