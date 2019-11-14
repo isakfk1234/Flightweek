@@ -6,51 +6,120 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="test.css">
-    <script src="test.js"></script>
 </head>
 <body>
+<header>
+    <nav>
+        <a href="C:\Users\isak\Desktop\flightweek\pages\home\index.html">Home page</a>
+        <a href="pages/#">Flight route</a>
+        <a href="fleet.html">Fleet</a>
+    </nav>
+</header>
+
+
+<div class="fleetname"><h2>737 fleet</h2></div>
 <table>
     <tr>
-        <th><button id="myBtn2">open</button>
-            <div id="myModal2" class="modal">
-
-                    <!-- Modal content -->
-                    <div class="modal-content">
-                      <span class="close2">&times;</span>
-                      <button type="submit">adddd f</button> <button type="submit">delete aircraft</button>
-                    </div>
-                  
-            </div>
-            
-        <th></th>
+        <th>aircraft</th>
+        <th>airline</th>
+    </tr>
+    <tr>
+        <td><button class="modal-button" href="#myModal1">737</button><button class="modal-button" href="#myModal3">738</button></td>
+        <td>Scandinavian airline</td>
+    </tr>
+</table>
+<h2 style="text-align: center;">Boeing 747 family</h2>
+<table>
+    <tr>
+        <th>Aircraft</th>
+        <th>airline</th>
+    </tr>
+    <tr>
+        <td><button class="modal-button" href="#myModal2">747</button></td>
+        <th>Boeing 747 family</th>
     </tr>
 </table>
 
-
-<!-- Trigger/Open The Modal -->
-<button id="myBtn">open panel</button>
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
+<!-- The Modal 1 -->
+<div id="myModal1" class="modal">
 
   <!-- Modal content -->
   <div class="modal-content">
-    <span class="close">&times;</span>
-    <button type="submit">add aircraft</button> <button type="submit">delete aircraft</button>
-    <table>
-        <tr>
-            <th>registration</th>
-            <th>airline</th>
-            <th>location of the aircraft</th>
-        </tr>
-        <tr>
-            <th>LN-RGC</th>
-            <th>SAS</th>
-            <th>molde</th>
-        </tr>
-        <p><h3>close button dont work refresh to go to some other places on the website </h3></p>
-    </table>
+    <div class="modal-header">
+      <span class="close">×</span>
+      <h2>SAS</h2>
+    </div>
+    <div class="modal-body">
+      <div class="lastflight">
+        <p>lasts flight</p>
+      </div>
+      <table>
+          <tr>
+              <th>Hours</th>
+              <th>location</th>
+              <th>registration</th>
+          </tr>
+          <tr>
+              <td>132 hours</td>
+              <td>molde</td>
+              <td>LN-RGC</td>
+          </tr>
+      </table>
+    </div>
   </div>
+
+</div>
+
+<div id="myModal2" class="modal">
+
+  <!-- Modal content 2 -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <h2>Lufthansa</h2>
+    </div>
+    <div class="modal-body">
+      <table>
+          <tr>
+              <th>Hours</th>
+              <th>location</th>
+              <th>registration</th>
+          </tr>
+          <tr>
+              <td>1321 hours</td>
+              <td>frankfurt</td>
+              <td>D-ABVP</td>
+          </tr>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<div id="myModal3" class="modal">
+
+  <!-- Modal content 2 -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <h2>738</h2>
+    </div>
+    <div class="modal-body">
+      <table>
+          <tr>
+              <th>hours</th>
+              <th>location</th>
+              <th>registration</th>
+          </tr>
+          <tr>
+              <td>11 hours</td>
+              <td>bergen</td>
+              <td>LN-SWE</td>
+          </tr>
+      </table>
+    </div>
+  </div>
+
 </div>
 <script src="test.js"></script>
 </body>

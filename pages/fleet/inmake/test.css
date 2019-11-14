@@ -1,4 +1,8 @@
-/* The Modal (background) */
+body {
+    background-color: hsl(0,0%,96%);
+    font-family: sans-serif;
+}
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -50,4 +54,47 @@ table {
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+}
+
+
+.fleetname {
+    border: 0.1rem solid;
+    text-align: center;
+    margin: 0.4rem 23.3rem 0rem 22rem;
+    background-color: aqua;
+}
+
+
+button.modal-button {
+    border: 0.1rem solid;
+    cursor: pointer;
+    margin-right: 0.3rem;
+}
+
+.more-info {
+    border: 0.3rem solid;
+}
+
+
+
+/* nav  */
+
+header {
+    background: aqua;
+    /* border-bottom: 0.1rem solid; */
+    text-align: center;
+    border-style: groove;
+}
+
+nav {
+    font-size: larger;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: #ffe4e4;
+    /* border: 0.05rem solid; */
+    padding: 0.2rem;
+    display: inline-block;
 }
