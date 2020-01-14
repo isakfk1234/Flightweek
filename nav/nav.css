@@ -1,0 +1,30 @@
+body {
+    background-color: hsl(0,0%,96%);
+}
+
+/* hele navet */
+header {
+background: white;
+text-align: right;
+}
+/* størrelse på nav */
+nav {
+    position: absolute;
+    margin: -3rem 0rem 0rem 65rem;
+    font-size: large;
+}
+/* rundt boksen i linken */
+nav a {
+text-decoration: none;
+color: black;
+}
+
+img {
+    width: 5%;
+    text-align: left;
+    margin-right: 111rem;
+}
+
+header > a {
+    text-align: right;
+}

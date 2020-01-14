@@ -56,12 +56,13 @@ table, th, td {
     border-collapse: collapse;
 }
 
-
+/* the name of the fleet colum */
 .fleetname {
     border: 0.1rem solid;
     text-align: center;
-    margin: 0.4rem 23.3rem 0rem 22rem;
+    margin: 0.4rem 23.3rem 0rem 32rem;
     background-color: aqua;
+    width: 26%;
 }
 
 
@@ -79,6 +80,7 @@ button.modal-button {
     margin: -1rem 0rem 2rem 43rem;
     border: 0.1rem solid;
     box-shadow: 1px 5px 0px 3px lightgrey;
+    background-color: #d0d0d0;
 }
 .lastflight > p{
     text-align: center;

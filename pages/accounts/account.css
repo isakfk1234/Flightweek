@@ -1,0 +1,27 @@
+body {
+    background-color: hsl(0,0%,96%);
+    font-family: sans-serif;
+}
+
+
+.container-profil {
+    border: 3px solid;
+    text-align: center;
+}
+
+.container-profil > button {
+    width: auto;
+    width: 13%;
+}
+
+.account-profil {
+    text-align: center;
+    color: blue;
+}
+
+.importmentinfo {
+    text-align: center;
+    border: 0.2rem solid;
+    margin-top: 0.9rem;
+}
+
